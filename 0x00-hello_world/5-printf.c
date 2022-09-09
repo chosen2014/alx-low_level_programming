@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - print the string in the printf function
  * 
+ * Description: This program ith the help of the printf function will print 
+ * "with proper grammar, but the outcome is a piece of art,"
  * Return: 0
  */
 int main(void)
