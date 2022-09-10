@@ -8,18 +8,12 @@
  */
 int main(void)
 {
-	int c;
+	char low;
 	
-	for (c = 48; c <= 57; c++)
+	for (low = 'z'; low >= 'a'; low--)
 	{
-		putchar(c);
-		if (c != 57)
-		{
-			putchar(',');
-			putchar(' ');
-		}
+		putchar('low');
+		putchar('\n');
 	}
-	putchar('\n');
 	return (0);
-
 }
