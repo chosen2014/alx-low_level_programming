@@ -1,17 +1,21 @@
-#includ "main.h"
+#include "main.h"
 /**
  * main -prints the lower letter
  *
- * Description -  prints the lwer alphabet
+ * Description - 2print_alphabet_x10 prints the lwer alphabet
  * Return: 0 always
  */
-void print_alphabet(void)
+void print_alphabet_x10(void);
 {
 	int j;
+	int x;
 
-	for (j = "a"; j <= "z"; j++)
+	for (x = 0; x <= 10; x++)
 	{
-		_putchar(j);
+		for (j = 'a'; j <= 'z'; j++)
+		{
+			_putchar(j);
+		}
+		_putcar('\n');
 	}
-	_putcar("\n");
 }
