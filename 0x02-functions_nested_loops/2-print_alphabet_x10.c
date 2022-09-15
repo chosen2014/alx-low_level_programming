@@ -1,21 +1,19 @@
 #include "main.h"
 /**
- * main -prints the lower letter
- *
- * Description - 2print_alphabet_x10 prints the lwer alphabet
- * Return: 0 always
+ * print_alphabet_x10 - function to print abc 10 times
+ * Return: 0
  */
+
 void print_alphabet_x10(void)
 {
-	int j;
-	int x;
-
-	for (x = 0; x <= 10; x++)
+	char c, i;
+	
+	for (i = 0; i <= 9; i++)
 	{
-		for (j = 'a'; j <= 'z'; j++)
+		for (c = 'a'; c <= 'z'; c++)
 		{
-			_putchar(j);
+			_putchar(c);
 		}
-		_putcar('\n');
+		_putchar('\n');
 	}
 }
