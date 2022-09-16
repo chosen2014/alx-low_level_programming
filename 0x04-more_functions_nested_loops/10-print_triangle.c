@@ -15,7 +15,10 @@ void print_triangle(int size)
 	{
 		for (inc1 = 1; inc1 <= size; inc1++)
 		{
-			putchar(' ');
+			for ((imc2 = size - inc1); inc2 > 0; inc2--)
+			{
+				putchar(' ');
+			}
 		}
 
 		for (inc2 = 0; inc2 < inc1; inc2++)
@@ -30,4 +33,5 @@ void print_triangle(int size)
 
 		putchar('\n');
 	}
+	putchar('\n');
 }
