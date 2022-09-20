@@ -6,7 +6,7 @@
  * Return: half the input
  */
 
-void puts_half(Char *str)
+void puts_half(char *str)
 {
 	int len = 0;
 
