@@ -4,12 +4,12 @@
 /**
  * print_name - prints a name
  * @name: name to print
- * @f: pointer to the printing puntion
+ * @f: pointer to the printing funtion
  */
 
 void print_name(char *name, void (*f)(char *))
 {
-	if (!name || if)
+	if (!name || !f)
 		return;
 	f(name);
 }
